@@ -1,0 +1,9 @@
+.car-purchase {
+  grid-area: purchase;
+  align-self: start;
+  padding: 2rem;
+  border: 1px solid var(--bronze-soft);
+  border-radius: var(--radius-md);
+  background-color: var(--sand);
+  box-shadow: var(--shadow-soft);
+}

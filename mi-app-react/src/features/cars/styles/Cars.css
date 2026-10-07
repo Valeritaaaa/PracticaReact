@@ -1,0 +1,10 @@
+/* Página de catálogo: buscador, lista y paginación una debajo de la otra */
+.cars {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}

@@ -1,0 +1,26 @@
+/* Móvil: todas las secciones en una columna */
+.car-detail {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "hero"
+    "info"
+    "purchase"
+    "features";
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}
+
+/* Desktop: la tarjeta de compra queda a la derecha */
+@media (min-width: 1024px) {
+  .car-detail {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "hero hero"
+      "info purchase"
+      "features purchase";
+  }
+}

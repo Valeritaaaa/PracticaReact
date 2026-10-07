@@ -1,0 +1,31 @@
+/* Móvil: contenido centrado */
+.hero {
+  padding: 4rem 0;
+  background:
+    radial-gradient(ellipse at 85% 0%, var(--blush) 0%, transparent 55%),
+    linear-gradient(180deg, var(--sage) 0%, var(--pearl) 100%);
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.hero__content { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+
+.hero__title { color: var(--ink); font-size: 2.5rem; font-weight: 400; }
+
+.hero__text { max-width: 600px; font-size: 1.1rem; }
+
+.hero__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 0.5rem; }
+
+/* Tablet */
+@media (min-width: 768px) {
+  .hero { padding: 6.5rem 0; }
+  .hero__title { font-size: 3.4rem; }
+}
+
+/* Desktop: contenido alineado a la izquierda */
+@media (min-width: 1024px) {
+  .hero { text-align: left; }
+  .hero__content { align-items: flex-start; }
+  .hero__title { max-width: 700px; font-size: 4.2rem; }
+  .hero__actions { justify-content: flex-start; }
+}

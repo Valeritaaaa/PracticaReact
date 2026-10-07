@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Aurelia",
+    "location": "San José, Costa Rica",
+    "price": 27500,
+    "year": 2024,
+    "mileage": 9800,
+    "seats": 5,
+    "type": "Sedán",
+    "image": "/images/jeepWrangler.jpg",
+    "featured": true,
+    "description": "Sedán de líneas serenas, interior amplio y una conducción suave pensada para la ciudad.",
+    "features": [
+      "Sensores de estacionamiento",
+      "Aire acondicionado",
+      "Conectividad Bluetooth",
+      "Control de estabilidad"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cumbre 4x4",
+    "location": "Escazú, Costa Rica",
+    "price": 41200,
+    "year": 2024,
+    "mileage": 11200,
+    "seats": 5,
+    "type": "SUV",
+    "image": "/images/deportivo.jpg",
+    "featured": true,
+    "description": "SUV de tracción total con porte elegante, preparado para ciudad y montaña.",
+    "features": [
+      "Tracción 4x4",
+      "Asientos de cuero",
+      "Techo panorámico",
+      "Cámara 360°"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vértice GT",
+    "location": "Alajuela, Costa Rica",
+    "price": 63900,
+    "year": 2025,
+    "mileage": 3200,
+    "seats": 2,
+    "type": "Deportivo",
+    "image": "/images/electrico.jpg",
+    "featured": true,
+    "description": "Deportivo de dos plazas con silueta baja, respuesta ágil y acabados cuidados.",
+    "features": [
+      "Modos de manejo",
+      "Asientos deportivos",
+      "Faros LED matriciales",
+      "Frenos de alto rendimiento"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Halcyon E",
+    "location": "Heredia, Costa Rica",
+    "price": 39800,
+    "year": 2025,
+    "mileage": 4500,
+    "seats": 5,
+    "type": "Eléctrico",
+    "image": "/images/halcyon-e.svg",
+    "featured": false,
+    "description": "Eléctrico silencioso con cabina minimalista y autonomía para toda la semana.",
+    "features": [
+      "Carga rápida",
+      "Pantalla digital",
+      "Frenado regenerativo",
+      "Asistente de carril"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Marea Cross",
+    "location": "Cartago, Costa Rica",
+    "price": 31200,
+    "year": 2023,
+    "mileage": 15800,
+    "seats": 5,
+    "type": "Crossover",
+    "image": "/images/marea-cross.svg",
+    "featured": false,
+    "description": "Crossover versátil, con buena altura de manejo y espacio para escapadas de fin de semana.",
+    "features": [
+      "Cámara de reversa",
+      "Control de crucero",
+      "Climatizador",
+      "Barras de techo"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Solana Spider",
+    "location": "Tamarindo, Guanacaste",
+    "price": 56400,
+    "year": 2024,
+    "mileage": 6900,
+    "seats": 2,
+    "type": "Convertible",
+    "image": "/images/solana-spider.svg",
+    "featured": false,
+    "description": "Convertible de dos plazas, ideal para recorrer la costa con la capota abierta.",
+    "features": [
+      "Capota eléctrica",
+      "Asientos de cuero",
+      "Sonido premium",
+      "Control de estabilidad"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Altiplano",
+    "location": "Liberia, Costa Rica",
+    "price": 36700,
+    "year": 2023,
+    "mileage": 19400,
+    "seats": 5,
+    "type": "Pickup",
+    "image": "/images/altiplano.svg",
+    "featured": false,
+    "description": "Pickup de doble cabina, robusta y cómoda para el trabajo y la aventura.",
+    "features": [
+      "Tracción 4x4",
+      "Cubierta de caja",
+      "Cámara de reversa",
+      "Pantalla táctil"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Alba Hybrid",
+    "location": "Santa Ana, San José",
+    "price": 29900,
+    "year": 2025,
+    "mileage": 5200,
+    "seats": 5,
+    "type": "Híbrido",
+    "image": "/images/alba-hybrid.svg",
+    "featured": false,
+    "description": "Híbrido compacto y eficiente, con cabina luminosa y consumo muy bajo.",
+    "features": [
+      "Sistema híbrido",
+      "Frenado regenerativo",
+      "Pantalla táctil",
+      "Sensores de estacionamiento"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Zafiro Cupé",
+    "location": "San José, Costa Rica",
+    "price": 44900,
+    "year": 2024,
+    "mileage": 8100,
+    "seats": 4,
+    "type": "Cupé",
+    "image": "/images/zafiro-cupe.svg",
+    "featured": false,
+    "description": "Cupé de techo descendente, interior refinado y una presencia discreta.",
+    "features": [
+      "Asientos calefaccionados",
+      "Faros LED",
+      "Modos de manejo",
+      "Cámara de reversa"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Arenal Family",
+    "location": "La Fortuna, Alajuela",
+    "price": 34600,
+    "year": 2023,
+    "mileage": 22300,
+    "seats": 8,
+    "type": "Familiar",
+    "image": "/images/arenal-family.svg",
+    "featured": false,
+    "description": "Familiar de ocho plazas, con puertas corredizas y espacio de carga adaptable.",
+    "features": [
+      "Tres filas de asientos",
+      "Puertas corredizas",
+      "Climatizador trasero",
+      "Asientos abatibles"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Urbano Mini",
+    "location": "Cartago, Costa Rica",
+    "price": 17800,
+    "year": 2022,
+    "mileage": 28600,
+    "seats": 5,
+    "type": "Hatchback",
+    "image": "/images/urbano-mini.svg",
+    "featured": false,
+    "description": "Hatchback ágil y fácil de estacionar, perfecto para el trayecto diario.",
+    "features": [
+      "Pantalla táctil",
+      "Bluetooth",
+      "Sensores traseros",
+      "Aire acondicionado"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Costa Grand",
+    "location": "Jacó, Puntarenas",
+    "price": 47500,
+    "year": 2024,
+    "mileage": 12700,
+    "seats": 7,
+    "type": "SUV",
+    "image": "/images/costa-grand.svg",
+    "featured": false,
+    "description": "SUV de siete plazas con acabados de lujo y mucho espacio para la familia.",
+    "features": [
+      "Tercera fila",
+      "Techo panorámico",
+      "Asientos de cuero",
+      "Control de crucero"
+    ]
+  }
+]

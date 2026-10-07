@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f6f8;
+  color: #2b2d42;
+  line-height: 1.6;
+}
+
+/* El footer siempre queda abajo aunque la página tenga poco contenido */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  color: #14213d;
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Contenedor que centra el contenido de cada sección */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Texto pequeño que va encima de los títulos */
+.eyebrow {
+  color: #fca311;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Enlace de texto con color de acento */
+.text-link {
+  color: #d97706;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+.text-link:hover {
+  color: #14213d;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #fca311;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.btn--primary {
+  background-color: #fca311;
+  color: #14213d;
+}
+
+.btn--primary:hover {
+  background-color: #d97706;
+  border-color: #d97706;
+  color: #ffffff;
+}
+
+/* Para fondos oscuros */
+.btn--light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn--light:hover {
+  background-color: #ffffff;
+  color: #14213d;
+}
+
+/* Para fondos claros */
+.btn--dark {
+  border-color: #14213d;
+  color: #14213d;
+}
+
+.btn--dark:hover {
+  background-color: #14213d;
+  color: #ffffff;
+}

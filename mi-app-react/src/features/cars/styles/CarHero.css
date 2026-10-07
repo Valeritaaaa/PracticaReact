@@ -1,0 +1,12 @@
+.car-hero {
+  grid-area: hero;
+  padding: 2.5rem;
+  border-radius: var(--radius-md);
+  background:
+    radial-gradient(ellipse at 90% 0%, var(--blush) 0%, transparent 60%),
+    var(--sage);
+  color: var(--ink-soft);
+}
+
+.car-hero h1,
+.car-hero h2 { color: var(--ink); }

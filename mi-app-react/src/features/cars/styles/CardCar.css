@@ -1,0 +1,86 @@
+
+Cardcar · CSS
+.card-car {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background-color: var(--white);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition), border-color var(--transition);
+}
+ 
+.card-car:hover { border-color: var(--bronze-soft); box-shadow: var(--shadow-soft); }
+ 
+/* La imagen, la etiqueta y el corazón ocupan la misma celda del grid,
+   así quedan uno encima del otro */
+.card-car__media { display: grid; background-color: var(--sage); }
+ 
+.card-car__image,
+.card-car__badge,
+.card-car__fav { grid-area: 1 / 1 / 2 / 2; }
+ 
+.card-car__image { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+ 
+.card-car__badge {
+  justify-self: start;
+  align-self: start;
+  z-index: 1;
+  margin: 1rem;
+  padding: 0.25rem 0.9rem;
+  border-radius: var(--radius-pill);
+  background-color: rgba(255, 255, 255, 0.92);
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+ 
+.card-car__fav {
+  justify-self: end;
+  align-self: start;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: var(--bronze);
+  font-size: 1.1rem;
+}
+ 
+.card-car__body { display: flex; flex-direction: column; flex-grow: 1; gap: 0.5rem; padding: 1.5rem; }
+ 
+.card-car__location { color: var(--ink-soft); font-size: 0.85rem; }
+ 
+.card-car__name { font-size: 1.6rem; }
+ 
+.card-car__specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.4rem; }
+ 
+.card-car__spec {
+  padding: 0.25rem 0.8rem;
+  border-radius: var(--radius-pill);
+  background-color: var(--sand);
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+}
+ 
+/* Precio a la izquierda y enlace a la derecha */
+.card-car__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line);
+}
+ 
+.card-car__price { color: var(--ink); font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; }
+ 
+.card-car__link { color: var(--bronze); font-size: 0.9rem; font-weight: 500; transition: color var(--transition); }
+.card-car__link:hover { color: var(--ink); }
+ 

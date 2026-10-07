@@ -1,0 +1,23 @@
+/* ===== Tokens · Vale Motors (versión salvia y arena) ===== */
+:root {
+  --pearl: #fcfcfa;       /* fondo general */
+  --sage: #e9efe9;        /* verde salvia muy claro */
+  --sand: #f3ede4;        /* arena clara */
+  --blush: #f7ebe7;       /* rosa empolvado */
+  --bronze: #a98a5c;      /* acento principal */
+  --bronze-soft: #d9c7a6; /* acento suave (bordes) */
+  --ink: #2b3330;         /* texto principal */
+  --ink-soft: #6d7872;    /* texto secundario */
+  --line: #e3e5df;        /* bordes finos */
+  --white: #ffffff;
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Manrope", "Helvetica Neue", Arial, sans-serif;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 14px 40px -22px rgba(43, 51, 48, 0.22);
+  --shadow-card: 0 2px 14px -6px rgba(43, 51, 48, 0.12);
+  --transition: 0.35s ease;
+}

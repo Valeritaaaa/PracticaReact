@@ -1,0 +1,40 @@
+.experience {
+  margin-top: 4rem;
+  padding: 4rem 0;
+  background-color: var(--blush);
+}
+
+/* Móvil: imagen arriba y texto debajo */
+.experience__grid { display: grid; grid-template-columns: 1fr; align-items: center; gap: 2.5rem; }
+
+.experience__image {
+  height: 250px;
+  border-radius: var(--radius-md);
+  background-color: var(--sage);
+  background-image: url("/images/suv.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--shadow-soft);
+}
+
+.experience__content { display: flex; flex-direction: column; align-items: flex-start; gap: 1.1rem; }
+
+.experience__title { font-size: 2rem; }
+
+.experience__text { max-width: 38ch; color: var(--ink-soft); }
+
+.check-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+
+.check-list li::before {
+  content: "✓";
+  margin-right: 0.6rem;
+  color: var(--bronze);
+  font-weight: 500;
+}
+
+/* Tablet y desktop: imagen y texto lado a lado */
+@media (min-width: 768px) {
+  .experience__grid { grid-template-columns: 1fr 1fr; gap: 4rem; }
+  .experience__image { height: 380px; }
+  .experience__title { font-size: 2.6rem; }
+}

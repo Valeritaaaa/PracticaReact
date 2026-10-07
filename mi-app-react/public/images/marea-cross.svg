@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8eef3"/><stop offset="1" stop-color="#fcfcfa"/></linearGradient>
+<linearGradient id="bd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e1c1b5"/><stop offset="1" stop-color="#bf9d8f"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f8fa"/><stop offset="1" stop-color="#bccbd4"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<circle cx="640" cy="160" r="90" fill="#ffffff" opacity=".55"/>
+<rect y="448" width="800" height="152" fill="#ffffff" opacity=".45"/>
+<line x1="0" y1="448" x2="800" y2="448" stroke="#b9a37a" stroke-opacity=".35"/>
+<ellipse cx="400" cy="454" rx="330" ry="15" fill="#2b3330" opacity=".13"/>
+<path d="M105,392 L105,350 Q105,328 138,324 L240,316 L290,250 Q298,240 312,240 L520,240 Q536,240 546,252 L610,320 L655,328 Q695,336 695,362 L695,392 Z" fill="url(#bd)" stroke="#987d72" stroke-width="2" stroke-linejoin="round"/>
+<path d="M262,314 L298,254 L396,254 L396,314 Z" fill="url(#gl)" stroke="#987d72" stroke-width="1.5"/><path d="M408,254 L516,254 Q524,254 530,262 L580,314 L408,314 Z" fill="url(#gl)" stroke="#987d72" stroke-width="1.5"/><ellipse cx="679" cy="348" rx="12" ry="7" fill="#fff6dc" stroke="#987d72"/><ellipse cx="119" cy="352" rx="8" ry="6" fill="#d98c8c" stroke="#987d72"/><path d="M180,394 A60,60 0 0 1 300,394 Z" fill="#2b3330" opacity=".85"/><circle cx="240" cy="394" r="50" fill="#2b3330"/><circle cx="240" cy="394" r="31" fill="#e9ecea"/><circle cx="240" cy="394" r="31" fill="none" stroke="#b9c0bc" stroke-width="3"/><circle cx="240" cy="394" r="7" fill="#8f9893"/><path d="M500,394 A60,60 0 0 1 620,394 Z" fill="#2b3330" opacity=".85"/><circle cx="560" cy="394" r="50" fill="#2b3330"/><circle cx="560" cy="394" r="31" fill="#e9ecea"/><circle cx="560" cy="394" r="31" fill="none" stroke="#b9c0bc" stroke-width="3"/><circle cx="560" cy="394" r="7" fill="#8f9893"/>
+</svg>

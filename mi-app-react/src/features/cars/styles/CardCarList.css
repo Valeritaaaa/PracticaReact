@@ -1,0 +1,6 @@
+/* Crea tantas columnas como quepan, cada una de mínimo 280px */
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem 1.75rem;
+}

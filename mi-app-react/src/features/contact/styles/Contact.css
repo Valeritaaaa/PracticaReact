@@ -1,0 +1,18 @@
+
+Contact · CSS
+/* Móvil: formulario e información uno debajo del otro */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}
+ 
+/* Desktop: formulario más ancho a la izquierda, información a la derecha */
+@media (min-width: 1024px) {
+  .contact { grid-template-columns: 2fr 1fr; align-items: start; }
+}
+ 
